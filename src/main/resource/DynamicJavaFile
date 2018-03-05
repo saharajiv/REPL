@@ -1,0 +1,36 @@
+
+package com.bounded.buffer;
+import java.util.List;
+import java.util.ArrayList;
+
+public class DynamicJavaFile{
+ 
+ public void printIt() {
+ 	
+     print( "HelloWorld - Java Dynamic Class Creation written by Rajib. More are to come...\n");
+     println("Now it is different");
+     String st = "this is wonderful";
+     printSomethingElse(st); 
+     //TesterClass tc = new TesterClass();
+     //tc.loadValue(st);
+     //return tc;
+     
+ }
+ 
+ public void printSomethingElse(String st) {
+     	System.out.println( "Here's something more to it. ");     
+     	System.out.println(st); 
+     	
+     	
+ }
+
+}
+/*
+class TesterClass {
+	List<String> l = new ArrayList<String>();
+	
+	public void loadValue(String element){
+	 	l.add(element);
+	}
+}
+*/
